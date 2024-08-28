@@ -84,3 +84,8 @@ const inputHandler = function() {
 // Attach the inputHandler function to the button's click event
 button.addEventListener("click", inputHandler);
 
+document.addEventListener("keydown", function(event) {
+    if (event.key === "Enter") {
+        inputHandler();
+    }
+});

@@ -117,3 +117,32 @@ i{
     display: flex; 
     gap: 10px; 
 }
+@media screen and (max-width:924px) {
+
+    .outer-frame{
+        width: 45%;
+    }
+
+    
+}
+
+@media screen and (max-width:1054px){
+
+    .outer-frame{
+        width: 46%;
+    }
+    
+}
+@media screen and (max-width:600px){
+
+    .outer-frame{
+        width: 66%;
+    }
+    
+}
+@media screen and (max-width:420px){
+
+    .outer-frame{
+        width: 85%;
+    }
+}
